@@ -26,18 +26,18 @@ class AlarmManager {
     private var audioPlayer: AVAudioPlayer?
     
     private let arrTasks = [
-        Task(time: "00:00", name: "time to sleep"),
-        Task(time: "6:00", name: "time to Wake Up"),
-        Task(time: "7:00", name: "time for Breakfast"),
-        Task(time: "8:00", name: "time to Apply Part-Time Jobs"),
-        Task(time: "9:00", name: "time to Distribute Resumes"),
-        Task(time: "11:00", name: "time for lunch"),
-        Task(time: "12:00", name: "time to Apply IT Jobs"),
-        Task(time: "14:00", name: "time for Portfolio Work - Coding"),
-        Task(time: "18:00", name: "time for Dinner"),
-        Task(time: "19:00", name: "time for Portfolio Work - Coding"),
-        Task(time: "21:00", name: "time for milk Shake"),
-        Task(time: "21:30", name: "time for Portfolio Work - Coding")
+        Task(time: "00:00", name: "Sleep"),
+        Task(time: "06:00", name: "Wake Up"),
+        Task(time: "07:00", name: "Breakfast"),
+        Task(time: "08:00", name: "Work on Personal Goals"),
+        Task(time: "09:00", name: "Professional Development"),
+        Task(time: "11:00", name: "Lunch Break"),
+        Task(time: "12:00", name: "Job Applications"),
+        Task(time: "14:00", name: "Skill Improvement"),
+        Task(time: "18:00", name: "Dinner"),
+        Task(time: "19:00", name: "Project Work"),
+        Task(time: "21:00", name: "Relax & Refresh"),
+        Task(time: "21:30", name: "Evening Learning Session")
     ]
     
     private let arrSongs = ["malevolent_sukuna", "gojo_riko", "gohan_anger", "phonk_1", "code_1", "code_2", "code_3", "code_4", "code_5", "code_6", "code_7"]
